@@ -50,16 +50,19 @@ Database scheme
 Install
 -------
 
+```
  mkdir -p /var/www/shorten.localhost/ngdocs/public/
  touch "short.devel.cz"  >/var/www/shorten.localhost/ngdocs/public/index.html
-
+```
 
 Install on Production
 ---------------------
+
+``` 
  replace shorten.localhost by short.devel.cz (your domain)
  replace /shorten by secure /shorten-noh1kaa8oepae (secure URL string)
  replace 127.0.0.1:6379 by redis.localhost:6389 (your redis server)
-
+```
 
 Test
 ----
@@ -73,7 +76,6 @@ Test
   echo -e "\n  Original: "$A
 ```
 
-
 Based on
 --------
 Based on: https://gist.github.com/MendelGusmao/2356310
@@ -82,3 +84,5 @@ Based on: https://gist.github.com/MendelGusmao/2356310
 Thanks
 ------
 Thanks to Lex Vjatkin and Dušan Hokův
+=======
+>>>>>>> 404f7ebd6e9f0ac843482856a0f5b7b45a4e9bec
