@@ -1,6 +1,8 @@
 nginx + redis url shorten 
 =========================
 
+Created for Devel.cz Lab s.r.o. (Michal Illich)
+
 Usage
 -----
 Create shorten URL(short.devel.cz/a3) from long URL http://kinohled.cz/praha .
