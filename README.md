@@ -33,21 +33,25 @@ Database scheme
 Install
 -------
 
+```
  mkdir -p /var/www/shorten.localhost/ngdocs/public/
  touch "short.devel.cz"  >/var/www/shorten.localhost/ngdocs/public/index.html
-
+```
 
 Install on Production
 ---------------------
+
+``` 
  replace shorten.localhost by short.devel.cz (your domain)
  replace /shorten by secure /shorten-noh1kaa8oepae (secure URL string)
  replace 127.0.0.1:6379 by redis.localhost:6389 (your redis server)
-
+```
 
 Test
 ----
- # Target: http://devel.cz/user?destination=home
- # encode by http://meyerweb.com/eric/tools/dencoder/ to http%3A%2F%2Fdevel.cz%2Fuser%3Fdestination%3Dhome
+ Target: http://devel.cz/user?destination=home
+
+ encode by http://meyerweb.com/eric/tools/dencoder/ to http%3A%2F%2Fdevel.cz%2Fuser%3Fdestination%3Dhome
 
 ```
   export Target="http%3A%2F%2Fdevel.cz%2Fuser%3Fdestination%3Dhome"
