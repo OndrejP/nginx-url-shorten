@@ -84,5 +84,3 @@ Based on: https://gist.github.com/MendelGusmao/2356310
 Thanks
 ------
 Thanks to Lex Vjatkin and Dušan Hokův
-=======
->>>>>>> 404f7ebd6e9f0ac843482856a0f5b7b45a4e9bec
