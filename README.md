@@ -1,5 +1,5 @@
-nginx-url-shorten
-=================
+nginx + redis url shorten 
+=========================
 
 Usage
 -----
