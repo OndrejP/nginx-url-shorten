@@ -12,7 +12,7 @@ Create shorten URL(short.devel.cz/a3) from long URL http://kinohled.cz/praha .
 
 Requirements 
 ------------
-Nginx with modules:
+Lua 5.1, nginx with modules:
 
 * https://github.com/agentzh/set-misc-nginx-module/tags
 * https://github.com/simpl/ngx_devel_kit/tags
@@ -32,8 +32,6 @@ Copy shorten.conf to /etc/nginx/sites-available/ and create symlink to /etc/ngix
  --add-module=modules/redis2-nginx-module \
  --add-module=modules/lua-nginx-module-*
 ```
-
-
 
 
 Database scheme
@@ -58,11 +56,10 @@ Install
 Install on Production
 ---------------------
 
-``` 
- replace shorten.localhost by short.devel.cz (your domain)
- replace /shorten by secure /shorten-noh1kaa8oepae (secure URL string)
- replace 127.0.0.1:6379 by redis.localhost:6389 (your redis server)
-```
+* replace shorten.localhost by short.devel.cz (your domain)
+* replace /shorten by secure /shorten-noh1kaa8oepae (secure URL string)
+* replace 127.0.0.1:6379 by redis.localhost:6389 (your redis server)
+
 
 Test
 ----
